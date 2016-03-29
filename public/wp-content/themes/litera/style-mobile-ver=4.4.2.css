@@ -1,0 +1,468 @@
+/* @containers
+********************************************************************************************
+********************************************************************************************/
+
+.container,
+.container_alt {
+width: 100%;
+max-width: 1180px;
+margin: 0 auto;
+padding:0 0;
+overflow:hidden;
+position:relative;
+}
+
+#header .container{ overflow:visible;}
+
+#footer .container{ background:none !important; }
+
+
+/* @columns
+********************************************************************************************
+********************************************************************************************/
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol,.fifthcol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol,.warpbox {
+margin-left:0;
+float: left;
+min-height: 1px;
+}
+
+.foocol{
+margin:0 0 0 0;
+width:21.33%;
+padding: 20px 0 20px 80px;
+position:relative;
+height:100%;
+min-height:1px;
+float:left;
+}
+
+.foocol.first{width:36%;padding: 20px 0 20px 0;}
+
+/*sidebar*/
+.fourcol{ width:24%; padding:0 0;margin:0 0 40px 0 !important; min-height:1px; float:right;}
+
+/*content*/
+.eightcol{width:76%;padding:0 0; margin:0 0 40px 0 !important; min-height:1px; float:left;}
+
+/* sidebar position */
+.postbarLeft .eightcol{ float: right !important}
+
+.postbarLeft .fourcol{ float: left !important}
+
+.postbarNone .eightcol{ width:100%;}
+
+.postbarNone .entryhead iframe{ width:100%;}
+
+
+.woocommerce-page #foliocontent{ float: right !important; width:75%;}
+.woocommerce-page #foliosidebar{ float: left !important; width:25%;}
+.woocommerce-page #foliosidebar .sidewrap{padding:0 40px 0 0;}
+
+
+.sixcol{width:50%}
+
+.first,
+.ml-first {margin-left: 0px !important;}
+
+.widgetable{
+	padding:0 0 0 35px;
+	overflow:hidden;
+	margin:0 0 0 0;
+}
+
+.postbarLeft .widgetable{padding:0 35px 0 0;}
+
+.widgetable_sticky.scroll-to-fixed-fixed{ min-width:285px;}
+
+.colsingle #content{ margin:0 auto !important; float:none;}
+
+.colsingle #sidebar{ display:none !important;}
+
+
+
+
+/* @responsive mode
+********************************************************************************************
+********************************************************************************************/
+
+@media screen and (max-width: 1223px) {
+
+.container,
+.container_alt{ padding:0 20px;}
+
+.mainflex-full{margin: 0 auto 0 !important;max-width: 100%;width: 100%;}	
+
+.about-widget p.authorinfo{ padding:0 25px; bottom:30px;}
+	
+}
+
+
+/* iPad Landscape */
+@media screen and (max-width: 1130px) {
+	
+
+.slide-nav li > a {padding: 18px 25px 15px 20px;}
+
+.nav > li > a{ margin:0 6px;}
+
+#core, .postbar {padding-top: 20px !important;}
+
+.post-previous,
+.post-next{  bottom:70px;}
+
+.widgetable_sticky.scroll-to-fixed-fixed{ position:relative !important; top:auto !important; left:auto !important; right:auto !important;}
+
+.widgetable {padding: 0 0 0 20px;}
+
+.postbarLeft .widgetable{padding:0 20px 0 0;}
+
+.mainflex {margin: 0 auto 20px;}
+
+.imgsmall .item_inn { padding: 5px 20px;}
+
+
+.imgsmall .entryhead{margin:0 20px 0 0 ;}
+
+.imgsmall .item:nth-child(odd) .entryhead{ margin:0 0 0 20px;}
+
+.imgsmall .item_inn h2.posttitle {margin:0 0 8px 0;}
+
+.imgsmall .teaser{ font-size:90% !important; line-height:1.7 !important;}
+
+@media screen and (max-width: 935px){
+
+.imgsmall p.meta_more{ display:none;}
+
+#curtain .searchform {left: 0;margin: -40px 0 0 20px;}
+
+#curtain a.curtainclose{ left:auto; margin: -15px 20px 0 0;}
+
+.about-widget img {
+    margin: 0 0 0 -25%;
+    max-width: 150%;
+    width: 150%;
+}
+
+.about-titles{ padding:0 10px ;}
+
+.about-widget h2{ font-size:16px !important;}
+
+.about-widget p.authorinfo {
+    padding: 0 10px;
+	font-size: 75%;
+}
+
+}
+
+/*iPad Portrait */
+
+@media screen and (max-width: 770px){
+
+div.tooltip p:after,
+.nav>li>ul:after,
+.sf-arrows .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after,
+.slide-nav,
+.tmnf_icon{ display:none !important;}
+
+body {
+width: 100%;
+min-width: 0;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0;
+padding-right: 0;
+margin-top:0;
+font-size: 16px;
+-webkit-text-size-adjust: none;
+}
+
+.onecol, .twocol, .threecol,.threecol_spec, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol,.fifthcol
+{
+width: auto;
+float: none !important;
+padding-left: 0px;
+padding-right: 0px;
+margin-left: 0;
+margin-right: 0;
+}
+
+#header {padding: 10px 0 0;}
+
+#titles{ margin:10px auto !important;}
+
+
+
+/* mobile menu */
+a#navtrigger,
+a#navtrigger-sec{ display:block !important;}
+
+
+.navhead{ position:relative !important; top:auto !important; left:auto !important; right:auto !important;}
+
+#navigation{ display:none; position:relative; top:auto; margin:-20px 0 0 0 !important; padding:60px 0 0 0 !important; background-color:#222 !important;-moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px; border-top: none !important; }
+#navigation a{ color:#ddd !important;}
+
+#navigation a:hover,
+#navigation .current-menu-item>a{color:#f4a107 !important;}
+
+ul.nav,
+#main-nav{ width:100% !important; margin:0 0 0 0 !important; padding:0 0 0 0 !important;}
+
+ul.nav li,
+.nav li ul,
+#main-nav li.mega ul.sub-menu { width:100% !important; background-color: transparent !important; border:none !important; float:none; display:block;margin:0 0 0 0 !important; position:relative !important; left:auto !important; display:block !important; visibility:visible !important; padding-top:0;}
+
+#navigation .nav li ul li > a{ border-bottom:1px dotted #444 !important; text-align:left;}
+
+ul.nav li a{ width:100% !important; text-align:left; padding:15px 20px !important; margin:0 0 0 20px; font-size:16px !important;}
+
+.nav li ul li > a {font-size: 13px !important;}
+
+.nav li a.sf-with-ul {padding-right: 0 !important;}
+
+#main-nav > li > a {margin: 0 0 0 0 !important;}
+
+.nav > li > ul > li,
+.nav li ul ul li,
+#main-nav li ul li > a,
+.nav li ul li > a {max-width: 100% !important;margin:0 0 0 0; padding:0 0 0 0;}
+
+.nav li ul{ padding:0 20px;}
+
+#main-nav li.mega ul.sub-menu { min-height:0px;}
+
+.nav li ul ul{ margin:0 0 0 0; padding:0 0 0 0;}
+
+div.sub,
+.nav > li > ul:after{ display:none !important;}
+
+.sf-arrows .sf-with-ul::after { right: 15px;}
+
+/* end mobile menu */
+
+
+
+/*//// 
+stacked clomuns & posts */
+
+/* columns */
+#footer .foocol,
+.blocker,
+.woocommerce-page #foliocontent,
+.woocommerce-page #foliosidebar,
+.eightcol,
+.fourcol,
+.footer-logo,
+.bottom-menu,
+{
+    padding: 0 0 !important;
+    width: 100%;
+	margin:0 auto !important;
+	float:none !important;
+	display:block;
+	width:100%;
+	border-left: none;
+	border-right:none;
+}
+
+.blogger.imgsmall-two div.post,
+.blogger.imgsmall-two div.page {
+	width:49.5% !important;
+	float:left;
+}
+
+.imgsmall-two div.item{min-height: 0;}
+
+#sidebar,
+.foocol{ max-width:300px; width:100%; float:none; margin:0 auto !important; padding:0 0 !important;}
+
+.widgetable {padding: 0 0 0 0 !important;}
+
+/* posts */
+.blogger div.post, .blogger div.page,
+.blocker .tab-post{ width:100% !important; float:none; height:auto;}
+
+
+.postbarLeft .eightcol {float: none !important;}
+
+/*//// 
+end stacked colmuns & posts */
+
+
+/* woocommerce */
+.woocommerce-page div.product div.summary {
+    margin: 0 0 40px 0;
+    width: 100%;
+}
+.woocommerce-page ul.products li.product, .woocommerce ul.products li.product {
+    width: 100% !important;
+	margin:0 0 30px 0 !important;
+}
+
+.woocommerce h1.page-title,
+p.woocommerce-result-count{ text-align:center; width:100%;}
+
+.woocommerce #foliocontent .woocommerce-tabs,
+.woocommerce #foliocontent .related.products {width: 100%;}
+
+.woocommerce-page #foliosidebar {clear: both;}
+
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {float: none;}
+
+.tmnf-sc-quote.left,
+.tmnf-sc-quote.right{ width:100%; float:none; margin-left:0; margin-right:0}
+
+
+.contact-form .forms textarea,
+.contact-form .forms input.txt{ width:100%; float:none; margin-left:0; margin-right:0; padding-left:0; padding-right:0}
+
+.contact-form .forms label{ margin-bottom:10px}
+
+.contact-form .forms .buttons .submit,
+.contact-form .forms input#sendCopy{ margin-left:0;}
+
+
+
+/* comments */
+.commentlist li.comment {padding: 20px 5px 10px 5px;}
+ul.children li.comment:last-child {padding: 20px 0 10px 20px !important;}
+.commentlist .avatar {right: 0;left:auto;top: 0;width: 40px;}
+li.bypostauthor{ padding-left:10px !important;}
+
+
+/* other */
+
+.flexinside,
+.mainflexplain .flexinside{ width:60% !important; left:20% !important; bottom:0;}
+
+.mainflex .flex-direction-nav .flex-next {right: 20px;}
+.mainflex:hover .flex-direction-nav .flex-next {right: 0;}
+
+.mainflex-full .loading-inn i{ left:50%;}
+
+.flexinside h2,
+h2.archiv,
+h1.entry-title,
+.imglarge h2.posttitle,
+h2, blockquote{
+	font-size: 36px !important;
+  	font-size: 3.4vw !important;
+	line-height:1.0 !important;
+}
+
+.postbarNone .entryhead {margin: 0 0;}
+
+.postbarNone .item_inn {padding: 20px 40px 40px;}
+
+.postbarNone .entryhead img{ opacity:1;margin:-10px 0;}
+
+.entryfull {margin: 0 0;}
+
+.footer-logo{ text-align:center; width:100%;}
+
+.footer-logo img{ float:none; display:block; margin:20px auto;}
+
+.bottom-menu{ max-width:90%; margin:30px auto !important; float:none !important}
+
+
+	
+}
+
+
+@media only screen and (max-width: 589px) {
+
+h2.archiv,
+h1.entry-title,
+.imglarge h2.posttitle,
+h2{
+  	font-size: 5.8vw !important;
+}
+
+.comment-form-author,
+.comment-form-email,
+.comment-form-url,
+#post-nav,
+.postauthor{ width:100%;}
+
+#respond textarea{ width:99.5%;}
+
+.entry blockquote {
+    margin: 5px 10px;
+    padding: 0 20px !important;
+}
+	
+.post-previous, .post-next,
+.post-nav-image{width: 20px !important;}	
+
+h2.block,
+.mag-one .post-big,
+.mag-one .post-small,
+.blogger.imgsmall-two div.post,
+.blogger.imgsmall-two div.page,
+.blogger.imgsmall div.post,
+.blogger.imgsmall div.page{ width:100% !important; max-width:440px; float:none !important; margin-right:auto !important; margin-left:auto !important; overflow:hidden; min-height: 0;}
+
+.imgsmall-two .item_inn {    min-height: 0;}
+
+.blogger.imgsmall .entryhead{ float:none !important;width:100% !important; margin:0 0 0 0 !important;}
+
+.imgsmall .item_inn {padding: 20px 25px;}
+
+.imgsmall p.meta_more{ display:block;}
+
+
+.scrollTo_top{ right:0; width:100%;}
+
+.scrollTo_top a{ display:block;}
+
+.scrollTo_top a i {
+    float: none;
+    padding: 5px 18px 12px;
+}
+
+.page .item_inn,
+.imglarge .item_inn,
+.single-post .item .item_inn {
+    padding: 20px 20px 20px;
+}
+
+.meta-single{ padding:0 0 10px 0;}
+
+.imglarge .meta.author, .imglarge .meta.date, .imglarge .meta.counter,.imglarge .meta_more,
+.meta-single .meta { float: none !important; margin-bottom:5px;}
+
+.imglarge .entryhead h2 { bottom: 0;}
+
+.imglarge .meta_more a {float: left; margin-top: 20px;}
+
+.postauthor {padding: 10px 20px;}
+
+}
+
+@media only screen and (max-width: 485px) {
+
+.container, .container_alt {padding: 0 10px;}
+
+.mainflexplain .flexinside{ text-align:center; padding:0 10px; left: 15%;  width: 70%;}
+
+.flexinside h2{ font-size:18px !important; text-align:center; }
+
+#titles {width: 60% !important;}
+
+h1.entry-title { padding: 20px 20px 15px;}
+
+.blogger .entryhead iframe {
+    max-height: 200px;
+}
+
+.imgsmall .item_inn,
+.imgsmall-two .item_inn {padding: 20px 15px;}
+
+ul.related,
+ul.related li img{ width:100%;}
+
+ul.related li{ width:100% !important; margin:0 0 30px 0; height:auto;}
+	
+}

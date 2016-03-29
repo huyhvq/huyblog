@@ -1,0 +1,23 @@
+/*
+Theme Name:	Litera - Child theme
+Theme URI: http://themnific.com
+Description:	A basic child theme for Land Theme
+Author:		Dannci & Themnific
+Author URI: http://themnific.com
+Template:	litera
+Version:	0.1
+*/
+
+
+/* start editing */
+.mainflexplain {margin: 0 auto 10px;}
+
+
+
+.page-template-1big #content,
+.page-template-1small-col #content,
+.page-template-1default #content{ margin:0 auto !important; float:none;}
+
+.page-template-1big #sidebar,
+.page-template-1small-col #sidebar,
+.page-template-1default #sidebar{ display:none !important;}

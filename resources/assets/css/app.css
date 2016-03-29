@@ -1,0 +1,422 @@
+.blogger .format-quote {
+    background-color: #847e76 !important
+}
+
+.menu-item-has-children > a::after,
+.mega2 > a::after {
+    border-color: #333333 transparent transparent;
+}
+
+.nav > li > ul:after {
+    border-color: #333333 transparent
+}
+
+.woocommerce #content div.product .woocommerce-tabs ul.tabs {
+    border-color: #efefef !important
+}
+
+h2.widget {
+    font-size: 14px;
+    border-bottom-width: 5px;
+    margin: 0;
+}
+
+#footer h2.widget {
+    margin: 0 0 12px 0;
+}
+
+body {
+    font-family: Merriweather;
+    line-height: 28px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    font-size: 15px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading body, {
+    opacity: 0;
+}
+
+.ie.wf-loading body, {
+    visibility: hidden;
+}
+
+body, .taggs a, .post-pagination {
+    background-color: #f2f2f2;
+}
+
+.ghost, .post-previous, .post-next, .nav-previous a, a.page-numbers, .page-numbers.dots, .page-link a span, .mc4wp-form, .widgetable ul.menu > li > a {
+    background-color: #ffffff;
+}
+
+a, #sidebar h4 a {
+    color: #000;
+}
+
+a:hover, #sidebar h4 a:hover {
+    color: #f2382a;
+}
+
+a:active, #sidebar h4 a:active {
+    color: #000;
+}
+
+.entry p a, .additional a {
+    color: #9e958c;
+}
+
+.p-border, .meta, .taggs a, ul.social-menu li a, h3#reply-title, .single .entry > p:first-child, .tagcloud a, #portfolio-filter a, .page-numbers, input, textarea, select, .products, .nav_item a, .tp_recent_tweets ul li, .coco-social ul.coco-social-buttons li a, .hrline, .hrlineB, .mc4wp-form {
+    border-color: #efefef;
+}
+
+.hrline, .hrlineB {
+    background-color: #efefef;
+}
+
+#sidebar, #sidebar h2, #sidebar h3, .post-pagination span {
+    color: #000000;
+}
+
+#sidebar a, .meta.taggs a {
+    color: #000000;
+}
+
+.navhead, .nav li ul {
+    background-color: #222222;
+}
+
+.navhead, .nav li > ul, .nav li ul li > a, .nav li ul ul {
+    border-color: #333333;
+}
+
+.nav li > a {
+    font-family: Montserrat;
+    line-height: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: #ccc;
+    font-size: 13px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading .nav li > a, {
+    opacity: 0;
+}
+
+.ie.wf-loading .nav li > a, {
+    visibility: hidden;
+}
+
+#header {
+    background-color: #fff;
+}
+
+#header h1 a, #header ul.social-menu li a, .bottomnav a, ul.loop li a {
+    color: #000000;
+}
+
+#header h1 a:hover, #header .nav a:hover {
+    color: #847e76;
+}
+
+li.current-menu-item > a {
+    border-color: #847e76;
+}
+
+li.current-menu-item > a, .bottomnav h2, .curtain a, .curtain .searchform .s, p.reading {
+    color: #8c8c8c;
+}
+
+#titles {
+    width: 440px;
+}
+
+#titles {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#footer, #footer input {
+    font-family: Merriweather;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: normal;
+    color: #bfbfbf;
+    font-size: 12px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading #footer, #footer input, {
+    opacity: 0;
+}
+
+.ie.wf-loading #footer, #footer input, {
+    visibility: hidden;
+}
+
+#footer, #footer .searchform input.s, .blogger > div.sticky, .sticky > .ghost {
+    background-color: #222;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: center bottom;
+}
+
+#footer a, #footer h2, #footer .bottom-menu li a, #footer h3, #footer #serinfo-nav li a, #footer .meta, #footer .meta a, #footer .searchform input.s, .sticky, .sticky p, .sticky a, .sticky .meta, .sticky .meta a {
+    color: #eeeeee;
+}
+
+#footer a:hover, .sticky a:hover {
+    color: #A9B39B;
+}
+
+.footer-top, #footer .foocol, #copyright, #footer .tagcloud a, #footer .tp_recent_tweets ul li, #footer .p-border, .sticky .p-border, #footer .searchform input.s, #footer input, #footer ul.social-menu li a {
+    border-color: #333333;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    line-height: 30px;
+    font-weight: 900;
+    font-style: normal;
+    color: #000;
+    font-size: 35px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h1, {
+    opacity: 0;
+}
+
+.ie.wf-loading h1, {
+    visibility: hidden;
+}
+
+.flexinside h2, h2.archiv {
+    font-family: "Playfair Display";
+    line-height: 35px;
+    font-weight: 900;
+    font-style: normal;
+    color: #222;
+    font-size: 35px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading .flexinside h2, h2.archiv, {
+    opacity: 0;
+}
+
+.ie.wf-loading .flexinside h2, h2.archiv, {
+    visibility: hidden;
+}
+
+h1.entry-title, .imglarge h2.posttitle, ul.tmnf-mosaic li.maso-4 h2 {
+    font-family: "Playfair Display";
+    line-height: 34px;
+    font-weight: 900;
+    font-style: normal;
+    color: #222;
+    font-size: 30px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h1.entry-title, .imglarge h2.posttitle, ul.tmnf-mosaic li.maso-4 h2, {
+    opacity: 0;
+}
+
+.ie.wf-loading h1.entry-title, .imglarge h2.posttitle, ul.tmnf-mosaic li.maso-4 h2, {
+    visibility: hidden;
+}
+
+h2, blockquote, .flexcarousel .flexinside h2 {
+    font-family: "Playfair Display";
+    line-height: 24px;
+    font-weight: 900;
+    font-style: normal;
+    color: #222;
+    font-size: 20px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h2, blockquote, .flexcarousel .flexinside h2, {
+    opacity: 0;
+}
+
+.ie.wf-loading h2, blockquote, .flexcarousel .flexinside h2, {
+    visibility: hidden;
+}
+
+h3, .comment-author cite, .authorpage {
+    font-family: Montserrat;
+    line-height: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: #222;
+    font-size: 16px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h3, .comment-author cite, .authorpage, {
+    opacity: 0;
+}
+
+.ie.wf-loading h3, .comment-author cite, .authorpage, {
+    visibility: hidden;
+}
+
+h4, .slide-nav li > a, .mc4wp-form input {
+    font-family: Poppins;
+    line-height: 18px;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    font-size: 12px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h4, .slide-nav li > a, .mc4wp-form input, {
+    opacity: 0;
+}
+
+.ie.wf-loading h4, .slide-nav li > a, .mc4wp-form input, {
+    visibility: hidden;
+}
+
+h5, .widgetable ul.menu > li > a, .bottomnav h2, #serinfo-nav li a, a.mainbutton, h5.review-title, .nav-previous a, .wrapper .wp-review-show-total, p.meta_more, #content .topic a, #content .reply a, #respond .form-submit input, .post-pagination {
+    font-family: Poppins;
+    line-height: 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: #222;
+    font-size: 10px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h5, .widgetable ul.menu > li > a, .bottomnav h2, #serinfo-nav li a, a.mainbutton, h5.review-title, .nav-previous a, .wrapper .wp-review-show-total, p.meta_more, #content .topic a, #content .reply a, #respond .form-submit input, .post-pagination, {
+    opacity: 0;
+}
+
+.ie.wf-loading h5, .widgetable ul.menu > li > a, .bottomnav h2, #serinfo-nav li a, a.mainbutton, h5.review-title, .nav-previous a, .wrapper .wp-review-show-total, p.meta_more, #content .topic a, #content .reply a, #respond .form-submit input, .post-pagination, {
+    visibility: hidden;
+}
+
+h6 {
+    font-family: "Roboto Slab";
+    line-height: 25px;
+    font-weight: 400;
+    font-style: normal;
+    color: #222;
+    font-size: 14px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading h6, {
+    opacity: 0;
+}
+
+.ie.wf-loading h6, {
+    visibility: hidden;
+}
+
+.meta, .meta a, ul.social-menu li a, #titles h2 {
+    font-family: Merriweather;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #444444;
+    font-size: 12px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.24s ease-in-out;
+    -moz-transition: opacity 0.24s ease-in-out;
+    transition: opacity 0.24s ease-in-out;
+}
+
+.wf-loading .meta, .meta a, ul.social-menu li a, #titles h2, {
+    opacity: 0;
+}
+
+.ie.wf-loading .meta, .meta a, ul.social-menu li a, #titles h2, {
+    visibility: hidden;
+}
+
+a.searchSubmit, .ribbon, .widgetable ul.menu > li.current-menu-item > a, .nav-previous a:hover, #respond #submit, .flex-direction-nav a, li.current a, .page-numbers.current, a.mainbutton, .blogger .format-quote, .products li .button.add_to_cart_button, .wrapper .wp-review-show-total, a.mainbutton, .tmnf_icon, #submit, #comments .navigation a, .tagssingle a, .contact-form .submit, .wpcf7-submit, a.comment-reply-link, ul.social-menu li a:hover {
+    background-color: #847e76;
+}
+
+.products li .button.add_to_cart_button, ul.social-menu li a:hover, h2.widget, .meta_more a {
+    border-color: #847e76;
+}
+
+.meta_more a {
+    color: #847e76;
+}
+
+a.searchSubmit, .ribbon, .ribbon a, .meta.cat a, #content .reply a, .meta.cat, .widgetable ul.menu > li.current-menu-item > a, .entry a.ribbon, .ribbon blockquote, .format-quote blockquote p, .bloggrid div.format-quote .text_inn blockquote p, .bloggrid div.format-quote .text_inn p, #hometab li.current a, #respond #submit, .nav-previous a:hover, .flex-direction-nav a, #footer a.mainbutton, a.mainbutton, .tmnf_icon, .blogger .format-quote, .blogger .format-quote a, .products li .button.add_to_cart_button, a.mainbutton, #submit, #comments .navigation a, .tagssingle a, .contact-form .submit, .wpcf7-submit, a.comment-reply-link, .wrapper .wp-review-show-total, #footer #hometab li.current a, ul.social-menu li a:hover, #header ul.social-menu li a:hover, #footer ul.social-menu li a:hover, .page-numbers.current {
+    color: #ffffff;
+}
+
+a.searchSubmit:hover, .ribbon:hover, a.mainbutton:hover, .entry a.ribbon:hover, .meta_more a:hover {
+    background-color: #000000;
+}
+
+.meta_more a:hover {
+    border-color: #000000;
+}
+
+#header a.searchSubmit:hover, #footer a.mainbutton:hover, .ribbon:hover, .ribbon:hover a, .ribbon a:hover, .menu-post p.meta.cat:hover, .menu-post .meta.cat:hover a, .entry a.ribbon:hover, a.mainbutton:hover, .post.format-quote:hover blockquote p, .post.format-quote:hover i, #mainhead a.searchSubmit, .meta_more a:hover {
+    color: #ffffff;
+}
+
+.imgwrap, .mainflex, .post-nav-image, .entryhead, .page-head, .maso, .about-inner {
+    background-color: #111111;
+}
+
+.flexinside, .slide-nav li > a, .page-head, .page-head p, .page-head a, .flexinside a, .flexinside p.meta, .flexinside p.meta a, .imglarge .entryhead h2 a, #sidebar .about-inner h2, .about-inner .meta, #sidebar a.mainbutton {
+    color: #ffffff;
+}
