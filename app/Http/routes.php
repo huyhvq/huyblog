@@ -13,14 +13,8 @@
 
 Route::group(['middleware' => ['web']], function () {
 
-    Route::get('/', 'FrontPageController@blog');
+    Route::get('/', 'FrontPageController@index');
     Route::get('/post/{slug}', ['as' => 'post', 'uses' => 'FrontPageController@post']);
-    Route::get('/category/{slug}', ['as' => 'category', 'uses' => 'FrontPageController@category']);
-    Route::get('/test', function(){
-        dd(Category::all()->toArray());
-    });
-    Route::get('/phpinfo', function () {
-        phpinfo();
-    });
-
+//    Route::get('/category/{slug}', ['as' => 'category', 'uses' => 'FrontPageController@category']);
+    Route::get('/blog', 'FrontPageController@blog');
 });
