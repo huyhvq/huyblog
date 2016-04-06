@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use Illuminate\Support\Facades\Cache;
 use Post;
 use Category;
 
@@ -15,7 +16,7 @@ class FrontPageController extends Controller
 
     public function blog()
     {
-        $posts = Post::type('post')->published()->with('author')->paginate(5);
+        $posts = Post::type('post')->published()->with('author')->paginate(5)->orderBy('created_at','desc');
         return view('blog.blog', compact('posts'));
     }
 
@@ -25,10 +26,10 @@ class FrontPageController extends Controller
         return view('blog.post', compact('post'));
     }
 
-    public function category($slug)
-    {
-        $cate = Category::slug($slug)->first();
-        $posts = $cate->posts()->get();
-        return view('frontpages.category', compact('posts', 'cate'));
-    }
+//    public function category($slug)
+//    {
+//        $cate = Category::slug($slug)->first();
+//        $posts = $cate->posts()->get();
+//        return view('frontpages.category', compact('posts', 'cate'));
+//    }
 }
